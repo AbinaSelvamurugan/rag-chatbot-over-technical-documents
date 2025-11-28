@@ -1,0 +1,10 @@
+System operations handbook (original educational content)
+
+SERVICE HEALTH
+Application health monitoring should track service readiness, response error rates and queue backlogs. A successful HTTP response does not guarantee that a dependent vector database or model provider is usable.
+
+INCIDENT INVESTIGATION
+Record the incident timeline, impacted service, observed error messages, recent configuration changes and recovery steps. Prefer reproducible logs and measurements to speculation. Do not paste credentials or tokens into incident tickets.
+
+BACKUP VERIFICATION
+A backup process should be tested by verifying that an authorized recovery procedure can restore the required data. A backup file existing on disk is not itself evidence of a successful restore.

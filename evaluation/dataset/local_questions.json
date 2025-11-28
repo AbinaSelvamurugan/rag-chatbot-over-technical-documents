@@ -1,0 +1,17 @@
+{
+  "annotation_method":"Original mini-corpus written for this project; each question independently annotated against the named section(s) before evaluation. These are local development fixtures, not an independently validated Juniper benchmark.",
+  "questions":[
+    {"id":"q01","category":"direct","question":"What is operational mode used for in Junos?","relevant_documents":["junos_cli_field_notes.md"],"expected_facts":["operational mode"]},
+    {"id":"q02","category":"cli","question":"Which command shows a compact summary of Junos interface states?","relevant_documents":["junos_cli_field_notes.md"],"expected_facts":["show interfaces terse"]},
+    {"id":"q03","category":"configuration","question":"How can a candidate configuration be checked before activating it?","relevant_documents":["junos_cli_field_notes.md"],"expected_facts":["commit check"]},
+    {"id":"q04","category":"configuration","question":"What does commit confirmed 5 provide?","relevant_documents":["junos_cli_field_notes.md"],"expected_facts":["commit confirmed 5"]},
+    {"id":"q05","category":"troubleshooting","question":"What should be checked first when a physical interface is down?","relevant_documents":["network_troubleshooting.md"],"expected_facts":["cabling"]},
+    {"id":"q06","category":"troubleshooting","question":"What is a recommended network troubleshooting sequence?","relevant_documents":["network_troubleshooting.md"],"expected_facts":["physical"]},
+    {"id":"q07","category":"multi-passage","question":"What should an engineer record before changing network settings and during incidents?","relevant_documents":["network_troubleshooting.md","system_operations.txt"],"expected_facts":["record"]},
+    {"id":"q08","category":"direct","question":"Does HTTP success alone prove all dependent services are healthy?","relevant_documents":["system_operations.txt"],"expected_facts":["HTTP"]},
+    {"id":"q09","category":"direct","question":"Which IPv4 prefix is reserved for documentation examples?","relevant_documents":["network_troubleshooting.md"],"expected_facts":["192.0.2.0/24"]},
+    {"id":"q10","category":"follow-up","question":"How do I review it before committing?","relevant_documents":["junos_cli_field_notes.md"],"expected_facts":["show | compare"]},
+    {"id":"q11","category":"unanswerable","question":"What is the CEO's private phone number?","relevant_documents":[],"expected_facts":[]},
+    {"id":"q12","category":"unanswerable","question":"Which Junos release will ship next year?","relevant_documents":[],"expected_facts":[]}
+  ]
+}
